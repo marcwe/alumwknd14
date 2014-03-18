@@ -221,10 +221,10 @@ function updatePrice(objForm){
 			 
 			 
 			 if (isCompDinnerDance(document.formRegister.classYear)==true) {
-			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1963';
+			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1964';
 			
 				if(fixInt(document.formRegister.FFBQuantity) >= 2){
-					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1963';
+					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1964';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total = subtotal - 50;
 					document.formRegister.FFBTotal.value = total;
