@@ -408,10 +408,10 @@ function isCompDinnerDance(objFormItem)
   		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd14/noChargeThanks.html">
   		<input type="hidden" name="dateToday" value="<%=Date()%>">
   		
-  		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2013.</div>
+  		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2014.</div>
   		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
 			<font color="#f99d31">* Indicates required fields</font>    <br/>
-      <b>REGISTRATION DEADLINE: Friday, May 24, 2013</b>
+      <b>REGISTRATION DEADLINE: Monday, May 26, 2014</b>
       </div>
       
       <div class="secondRedTitle">Step 1: Personal Information </div>
@@ -936,8 +936,7 @@ function isCompDinnerDance(objFormItem)
 																									
 																										
 																										
-																										<option value="12">12</option>
-																											<option value="13">13</option>
+																										
 																												<option value="14">14</option>
 																													<option value="15">15</option>
 <option value="16">16</option>
