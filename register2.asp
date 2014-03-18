@@ -1,4 +1,4 @@
-<!-- 20130318 -->
+<!-- 20140318 -->
 <% 
 if date() > cdate("5/27/2014") then
 response.redirect("closed.html")
@@ -221,12 +221,10 @@ function updatePrice(objForm){
 			 
 			 
 			 if (isCompDinnerDance(document.formRegister.classYear)==true) {
-			document.getElementById("message").innerHTML = '? Complimentary 
-			Tickets for Class of 1964';
+			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1963';
 			
 				if(fixInt(document.formRegister.FFBQuantity) >= 2){
-					document.getElementById("message").innerHTML = '2 Complimentary 
-					Tickets for Class of 1964';
+					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1963';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total = subtotal - 50;
 					document.formRegister.FFBTotal.value = total;
@@ -234,8 +232,7 @@ function updatePrice(objForm){
 					}
 					
 				if(fixInt(document.formRegister.FFBQuantity) == 1) {
-					document.getElementById("message").innerHTML = '1 Complimentary 
-					Ticket for Class of 1964';
+					document.getElementById("message").innerHTML = '1 Complimentary Ticket for Class of 1963';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total =  0;
 					document.formRegister.FFBTotal.value = total;
@@ -406,17 +403,15 @@ function isCompDinnerDance(objFormItem)
   																			method="post"> <!--000068625568-->
   		<input type="hidden" name="serialnumber" value="000068625568"> <input type="hidden" name="ordernumber">
   		<input type="hidden" name="transactionamount"> <input type="hidden" name="orderstring">
-  		<input type="hidden" name="comment"> <input type="hidden" 
-  		name="mailto" value="connie@pcom.edu, marcwe@pcom.edu">
+  		<input type="hidden" name="comment"> <input type="hidden" name="mailto" value="connie@pcom.edu,marcwe@pcom.edu">
   		<input type="hidden" name="mailfrom" value="connie@pcom.edu"> <input type="hidden" name="subject" value="Alumni signed up for Alumni Weekend">
-  		<input type="hidden" name="URL" 
-  		value="http://www.pcom.edu/alumwknd14/noChargeThanks.html">
+  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd14/noChargeThanks.html">
   		<input type="hidden" name="dateToday" value="<%=Date()%>">
   		
   		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2013.</div>
   		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
 			<font color="#f99d31">* Indicates required fields</font>    <br/>
-      <b>REGISTRATION DEADLINE: Monday, May 26, 2014</b>
+      <b>REGISTRATION DEADLINE: Friday, May 24, 2013</b>
       </div>
       
       <div class="secondRedTitle">Step 1: Personal Information </div>
@@ -642,7 +637,7 @@ function isCompDinnerDance(objFormItem)
 	    <table >
                      <tr>
 																								<td class="listColumnHeader2"  style="color:#000">
-																									<b>Friday, May 31, 2013</b></td>
+																									<b>Friday, May 30, 2014</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;
@@ -662,8 +657,7 @@ function isCompDinnerDance(objFormItem)
 																							</tr>
 																							<tr>
 																								<td class="list" colspan=2>
-																									<b>Reunion Luncheon for the Classes of 
-																									1964, 																									1959, 																									1954, 																									1949, 																								1944<br /> </b>
+																									<b>Reunion Luncheon for the Classes of 1964, 1959, 1954, 1949, 1944<br /></b>
 																								</td>
 																								
 																								<td class="list">&nbsp;
@@ -734,7 +728,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr><td colspan="4">&nbsp;</td></tr>
 																							 <tr>
 																								<td class="listColumnHeader2" style="color:#000">
-																									<b>Saturday, June 1, 2013</b></td>
+																									<b>Saturday, May 31, 2014</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;
