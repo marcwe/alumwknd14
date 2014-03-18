@@ -663,7 +663,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr>
 																								<td class="list" colspan=2>
 																									<b>Reunion Luncheon for the Classes of 
-																									1964, 																									1959, 																									1954, 																									1949, 																								1944, 1938<br /> </b>
+																									1964, 																									1959, 																									1954, 																									1949, 																								1944<br /> </b>
 																								</td>
 																								
 																								<td class="list">&nbsp;
@@ -684,7 +684,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr>
 																								<td class="listIndent">
 																									<input type="hidden" name="FFBItemNumber" value="1"> 
-																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1963, 1958, 1953, 1948, 1943, 1938">
+																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1964, 1959, 1954, 1949, 1944">
 																									<input type="hidden" name="FFBItemCost" value="25.00"> Adult: $25 per person 
                                                     <div style="COLOR: red" id="message" name="message">
 																									</div></td>
